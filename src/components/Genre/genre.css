@@ -1,0 +1,20 @@
+.genre {
+    margin: 0px 32px;
+    padding-bottom: 64px;
+    padding: 64px;
+    background-color: rgb(206, 240, 237);
+    margin-bottom: 24px;
+    border-radius: 15px;
+}
+
+.genre h2{
+    border-bottom: 4px solid;
+    margin-bottom: 64px;
+}
+
+.container-songs{
+    display: flex;
+    gap: 8px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

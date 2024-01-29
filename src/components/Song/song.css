@@ -1,0 +1,30 @@
+.songs {
+
+  background-color: rgb(190, 190, 190);
+  border-radius: 16px;
+  box-shadow: 5px 8px 15px gray;
+}
+.songs header {
+  position: relative;
+  box-sizing: border-box;
+}
+
+ .delete {
+  position: absolute ;
+  top: -15px;
+  right: -15px;
+  
+}
+.songs iframe{
+      width:236.5px;
+        height:133px;
+        border-radius: 0px 16px 0px 16px;
+}
+
+.songs img {
+    border: none;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+}

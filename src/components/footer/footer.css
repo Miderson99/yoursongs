@@ -1,0 +1,43 @@
+
+.footer-site{
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+
+
+}
+
+.footer-site h3 strong {
+    display: block; /* ou display: inline-block; */
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(212, 0, 0);
+    margin-bottom: 5px; /* Adicione um espaçamento inferior entre o strong e o h3 */
+}
+
+.footer-site h3 {
+    display: inline-block; /* ou display: block; */
+    color: rgb(255, 0, 0);
+    width: 200px;
+    font-size: 8px;
+}
+
+
+
+.footer-site img{
+    width: 300px;
+    height: 50px;
+
+
+}
+
+.container-icons{
+    display: flex;
+    list-style: none;
+    width: fit-content;
+    padding: 8px 24px;
+    gap: 8px;
+}

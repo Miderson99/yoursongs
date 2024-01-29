@@ -1,0 +1,32 @@
+.content-form {
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    gap: 64px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding:  50px 0px;
+}
+
+.form {
+    background-color: rgb(247, 245, 245);
+    padding: 32px;
+    box-shadow: 6px 6px 8px #00000059;
+    border-radius: 16px;
+    min-width: 30vw;
+    
+}
+
+.same-line-field{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-link{
+        border: none;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+}

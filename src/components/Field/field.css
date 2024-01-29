@@ -1,0 +1,21 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+    align-items: start;
+}
+
+.field label{
+    margin-bottom: 16px;
+    display: block;
+    
+}
+
+.field input{
+    padding: 16px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border: none;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
